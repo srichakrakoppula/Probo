@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSI Vasavi</title>
+<link href="styles/style_home.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/modernizr.custom.60181.js"></script>
+
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>
+var __adobewebfontsappname__="dreamweaver"
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+
+</script><script src="http://use.edgefonts.net/buenard:n4,n7:default;source-sans-pro:i2:default.js" type="text/javascript"></script>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-698754447 { visibility:hidden; }
+        img { display: block; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+</head>
+
+<body>
+<div id="wrapper">
+<header id="top"> <a href="http://www.csi-india.org/"><img src="images/CSI.jpg" alt="Computer Society of India" width="90" height="90" class="edgeLoad-EDGE-698754447"/></a>
+  <h1 class="edgeLoad-EDGE-698754447">Vasavi College of Engineering</h1>
+  <h4 class="edgeLoad-EDGE-698754447"> Computer Society of India, Vasavi Student Chapter</h4>
+  <nav id="mainnav">
+    <ul>
+      <li><a href="index.html" class="thispage">Home</a>
+      </li><li><a href="Events.html">Events</a>
+      </li><li><a href="gallery.html">Gallery</a>
+      </li><li><a href="members.html">Members</a></li>
+      <li><a href="contact.html">Contact Us</a>
+    </ul>
+  </nav>
+</header>
+<div class=notification>
+<article class="edgeLoad-EDGE-698754447">
+  <h1><strong> Upcoming Sessions</strong></h1>
+  <marquee  id="updates_scroll" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrollamount=3>
+  
+   <a href="upcoming_sessions/Session_1.html">Big Data</a><br>
+    <br>
+    <a href="#">Upcoming Session2</a><br>
+    <br>
+    <a href="#">Upcoming Session3</a><br>
+    <br>
+    <a href="#">Upcoming Session4</a><br>
+    <br>
+    <a href="#">Upcoming Session5 </a><br>
+  
+  </marquee>
+  
+</article>
+</div>
+<div  class="info">
+<article>
+  <h2>About</h2>
+  Our college got registered as a CSI-Student Chapter in the year 2006. It comes under the Region 5 of CSI. At present we have many of our faculties as life members and more than 500 student members.
+  CSI coordinator of our college is Dr. T.AdiLakshmi, CSE HOD. CSI student branch counsellor is Mrs. Anitha. 
+  Every year the students from the 3rd & 4th year will be made as a team to form the CSI student chapter committee. Our college got registered as a CSI-Student Chapter in the year 2006. It comes under the Region 5 of CSI. At present we have many of our faculties as life members and more than 500 student members.
+  CSI coordinator of our college is Dr. T.AdiLakshmi, CSE HOD. CSI student branch counsellor is Mrs. Anitha. 
+  Every year the students from the 3rd & 4th year will be made as a team to form the CSI student chapter committee. </article> </div>
+  <div id="login">
+<form>
+  <h2> Student Login</h2>
+  <table border="0">
+    <input name="LoginID" type="text" required id="StudId" autocomplete="on" onfocus="if(this.value=='LoginID')this.value='';" onblur="if(this.value=='')this.value='LoginID';" value="LoginID" maxlength="20">
+    <br>
+    <input type="password" required id="pswd"  onfocus="if(this.value=='******')this.value='';" onblur="if(this.value=='')this.value='******';" value="******" maxlength="6" >
+  </table>
+  <input name="Submit" type="submit" id="Submit" onClick="MM_validateForm('StudId','','R','pswd','','R');return document.MM_returnValue" value="Login">
+</form>
+</div>
+</div>
+</body>
+</html>

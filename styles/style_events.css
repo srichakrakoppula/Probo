@@ -1,0 +1,197 @@
+mainnav {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #43A6CB;
+}
+#mainnav ul {
+	list-style-type: none;
+	position: static;
+	display: inline;
+	text-decoration: none;
+}
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #4D4D4D;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+	text-decoration: none;
+}
+#wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	margin-top: 2px;
+	min-width: 720px;
+}
+#top h1, #top h4 {
+	text-align: center;
+	top: 10px;
+	left: -30px;
+	position: static;
+}
+#top h1 {
+	position: static;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: xx-large;
+	text-transform: uppercase;
+}
+#top h4 {
+	top: -5px;
+	bottom: -5px;
+}
+#top img {
+	float: left;
+	margin-top: 5px;
+}
+.info {
+	width: 40%;
+	height: auto;
+	display: block;
+	float: left;
+	background-color: #9EB9C4;
+	border-radius: 20px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	right: 35%;
+}
+.info h2 {
+	text-transform: capitalize;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 700;
+	color: #000000;
+	text-decoration: underline;
+}
+#wrapper #psfixed_notifications {
+	position: fixed;
+	width: 200px;
+	height: 300px;
+	min-width: 100px;
+	min-height: 120px;
+	top: 180px;
+	left: 20%;
+}
+
+#login {
+	width: 25%;
+	float: right;
+	text-align: center;
+	display: block;
+	color: #1E1E1E;
+}
+#login h2 {
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-weight: 200;
+	height: 15px;
+}
+#2014, #2013, #2012, #2011 {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.year {
+	font-size: large;
+	text-decoration: underline;
+	text-align: left;
+	list-style-type: katakana;
+}
+.notification h2{
+	text-align: left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: italic;
+	margin-left: 1%;
+	margin-bottom: 0.5%;
+}
+.notification marquee {
+	border-radius: 10px;
+	border: thin solid #000000;
+	width: 90%;
+}
+#wrapper .notification {
+	max-width: 300px;
+	max-height: 250px;
+	min-width: 100px;
+	position: relative;
+	top: 10px;
+}
+#psfixed_notifications marquee {
+	border-radius: 10px;
+	border: thin solid #000000;
+	width: 100%;
+	position: relative;
+}
+.photos {
+	background-color: #000000;
+	width: 720px;
+	height: 480px;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+#my-slider {
+	margin-left: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	top: 100px;
+	left: 34%;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 25px #999999;
+}
+input {
+	color: #727070;
+}
+#session1 {
+	background-color: #9EB9C4;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 75%;
+}
+#session1 h2 {
+	color: #000000;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.All_Events {
+	position: relative;
+	width: 700px;
+	left: 320px;
+	top: 20px;
+}
